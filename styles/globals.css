@@ -1,0 +1,61 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.block {
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-country {
+    width: 300px;
+    margin: 0 auto;
+    box-shadow: 0 10px 2rem rgba(0, 0, 0, 0.2);
+}
+
+.cancel {
+    box-shadow: 0 10px 2rem rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+}
+
+.data {
+    width: 100%;
+    border-radius: 20px;
+    margin: 20px auto;
+}
+
+.Box {
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Card {
+    width: 300px;
+    padding: 20px;
+    margin: 10px 20px;
+    border-radius: 15px;
+    box-shadow: 0 15px 1rem rgba(0, 0, 0, 0.2);
+}
+
+.text {
+    text-decoration: underline;
+    font-weight: bold;
+}
